@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Header with Flexbox -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">LayoutMaster</a>
+            
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section with Grid -->
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Modern Layouts with Flexbox and Grid</h1>
+                <p>Learn how to create responsive web layouts using CSS Flexbox and Grid with practical examples.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='300' viewBox='0 0 500 300'%3E%3Crect fill='%23FFFFFF' width='500' height='300'/%3E%3Cpath fill='%233498DB' d='M250,150 L350,250 L150,250 Z'/%3E%3Ccircle fill='%232ecc71' cx='100' cy='100' r='50'/%3E%3Crect fill='%23e74c3c' x='400' y='50' width='50' height='200'/%3E%3C/svg%3E" alt="Layout Illustration">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section with Grid -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-img">
+                        <i class="fas fa-th"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>CSS Grid Layout</h3>
+                        <p>Create two-dimensional layouts with rows and columns using the powerful CSS Grid system.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-img">
+                        <i class="fas fa-align-justify"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Flexbox Layout</h3>
+                        <p>Design flexible and efficient one-dimensional layouts with CSS Flexbox.</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-img">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Responsive Design</h3>
+                        <p>Ensure your layouts look great on all devices with responsive breakpoints.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section with Flexbox -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Developers Say</h2>
+            
+            <div class="testimonials-container">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Using CSS Grid and Flexbox together has completely transformed how I approach web layout. It's so much more efficient than older methods!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">JD</div>
+                        <div class="author-info">
+                            <h4>Jane Doe</h4>
+                            <p>Frontend Developer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The combination of Grid for overall page structure and Flexbox for component layout is a game-changer for responsive design."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">JS</div>
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I've been able to create complex layouts with minimal code. The maintainability of my CSS has improved dramatically."</p>
+                    <div class="testimonial-author">
+                        <div class="author-img">AJ</div>
+                        <div class="author-info">
+                            <h4>Alice Johnson</h4>
+                            <p>Full Stack Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section with Grid -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="pricing-price">sh999<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Basic Flexbox & Grid concepts</li>
+                        <li>10 layout examples</li>
+                        <li>Email support</li>
+                        <li>Access to community</li>
+                    </ul>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="pricing-price">sh499<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Advanced layout techniques</li>
+                        <li>50+ layout examples</li>
+                        <li>Priority email support</li>
+                        <li>Source code access</li>
+                    </ul>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="pricing-price">sh99<span>/month</span></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>All advanced features</li>
+                        <li>100+ layout examples</li>
+                        <li>24/7 phone support</li>
+                        <li>Team collaboration tools</li>
+                    </ul>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Flexbox -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>LayoutMaster</h3>
+                    <p>Master the art of CSS layout with Flexbox and Grid through our comprehensive tutorials and examples.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Examples</a></li>
+                        <li><a href="#">Code Snippets</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 LayoutMaster. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
